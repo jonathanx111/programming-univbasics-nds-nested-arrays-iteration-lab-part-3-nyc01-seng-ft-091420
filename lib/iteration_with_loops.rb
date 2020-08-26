@@ -7,7 +7,7 @@ def join_nested_strings(src)
     rowidx = 0 
     while rowidx < src[eleidx].count do 
       if src[eleidx][rowidx].class == String 
-        new = new + src[eleidx][rowidx]
+        new += src[eleidx][rowidx]
       end
       rowidx += 1 
     end 
