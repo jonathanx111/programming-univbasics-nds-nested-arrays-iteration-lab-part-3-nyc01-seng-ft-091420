@@ -13,7 +13,7 @@ def join_nested_strings(src)
     end 
     eleidx += 1 
   end
-   new.join(" ")
+   new.join(" ") + "."
 end
 
 mixed_data = [
