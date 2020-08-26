@@ -5,9 +5,9 @@ def join_nested_strings(src)
   new = ""
   while eleidx < src.count do 
     rowidx = 0 
-    while rowidx < scr[eleidx].count do 
-      if scr[eleidx][rowidx].class == String 
-        new = new + scr[eleidx][rowidx]
+    while rowidx < src[eleidx].count do 
+      if src[eleidx][rowidx].class == String 
+        new = new + src[eleidx][rowidx]
       end
       rowidx += 1 
     end 
